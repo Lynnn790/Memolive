@@ -84,7 +84,7 @@ const App = () => {
       const genAI = new GoogleGenerativeAI(apiKey);
       // 如果有開啟聯網，使用支援 tools 的模型
       const model = genAI.getGenerativeModel({ 
-        model: "gemini-1.5-pro",
+        model: "gemini-2.0-flash",
         tools: useSearch ? [{ googleSearch: {} }] : [] 
       });
 
