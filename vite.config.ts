@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/MemoLive/',  // <--- 這裡！一定要改成你的專案名稱 (前後都要有斜線)
+  base: '/Memolive/',  // <--- 這裡！一定要改成你的專案名稱 (前後都要有斜線)
   plugins: [
     react(),
     VitePWA({
